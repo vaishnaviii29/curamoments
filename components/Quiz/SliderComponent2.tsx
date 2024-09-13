@@ -26,24 +26,24 @@ const SliderComponent: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-regular pt-16 md:pt-20 mb-4 overflow-x-auto pb-8 md:pb-10" style={{ color: '#000000', fontFamily: 'Ledger, serif' }}>
           How’s your sleep been lately?
           </h2>
-          <div className="grid grid-cols-1 w-full gap-4 mb-8 ">
-  {dietOptions.map(diet => (
-    <button
-      key={diet}
-      className={`text-lg md:text-xl justify-self-start px-5 font-regular border-2 rounded-lg h-12 focus:outline-none 
-        ${isSelected(diet) ? 'border-solid border-black bg-black text-white' : 'hover:border-solid hover:border-black border-dashed border-[#3C3C434A]'}`
-      }
-      style={{
-        backgroundColor: isSelected(diet) ? 'rgba(255, 255, 255, 0.52)' : 'rgba(255, 255, 255, 0.52)',
-        color: isSelected(diet) ? 'black' : '#000000',
-        fontFamily: 'Ledger, serif'
-      }}
-      onClick={() => handleDietClick(diet)}
-    >
-      {diet}
-    </button>
-  ))}
-</div>
+          <div className="grid grid-cols-1 w-full gap-4 mb-8">
+            {dietOptions.map(diet => (
+              <button
+                key={diet}
+                className={`text-lg md:text-xl justify-self-start px-5 font-regular border-2 rounded-lg h-12 focus:outline-none w-full text-left
+                  ${isSelected(diet) ? 'border-solid border-black bg-black text-white' : 'hover:border-solid hover:border-black border-dashed border-[#3C3C434A]'}`
+                }
+                style={{
+                  backgroundColor: isSelected(diet) ? 'rgba(255, 255, 255, 0.52)' : 'rgba(255, 255, 255, 0.52)',
+                  color: isSelected(diet) ? 'black' : '#000000',
+                  fontFamily: 'Ledger, serif'
+                }}
+                onClick={() => handleDietClick(diet)}
+              >
+                {diet}
+              </button>
+            ))}
+          </div>
 
           <div className="pt-6 md:pt-10">
             <a href="/quiz/#test2" rel="noopener noreferrer">
@@ -52,7 +52,7 @@ const SliderComponent: React.FC = () => {
                 style={{ fontFamily: 'Ledger, serif' }}
                 onClick={() => console.log('Next clicked')}
               >
-                Next 
+                Next
               </button>
             </a>
           </div>
@@ -60,10 +60,9 @@ const SliderComponent: React.FC = () => {
 
         {selectedDiets.length > 0 && (
           <div className="w-full md:w-auto pt-10 md:pt-20 md:pr-10 flex items-center justify-center p-4">
-            <div className="bg-white p-4 rounded-lg shadow-lg max-w-lg text-left">
-              <span role="img" aria-label="brain" className="block text-5xl mb-2">😴</span>
-              
-              <p>Rest is essential for recharging your body and mind. <br/> Whether you're struggling to get enough sleep, looking to improve your rest quality, or focusing on recovery, prioritizing sleep can transform your well-being. How are you sleeping these days?</p>
+            <div className="bg-white p-4 rounded-lg  max-w-lg text-left">
+              <span role="img" aria-label="brain" className="block text-5xl mb-2">😴 </span>
+              <p>Rest is essential for recharging your body and mind. Whether you're struggling to get enough sleep, looking to improve your rest quality, or focusing on recovery, prioritizing sleep can transform your well-being. How are you sleeping these days?</p>
             </div>
           </div>
         )}

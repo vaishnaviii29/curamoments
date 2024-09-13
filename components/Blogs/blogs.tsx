@@ -49,7 +49,7 @@ const CartPage = () => {
         <option value="3">Option 3</option>
       </select>
     </div>
-    <div className="container pt-5 mx-auto ">
+    <div className="container pt-5 p-20 pb-5 mx-auto ">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
 
     <div className="bg-white shadow rounded-lg overflow-hidden">
@@ -58,12 +58,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -75,12 +75,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -91,12 +91,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -107,12 +107,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -124,12 +124,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -141,12 +141,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -160,12 +160,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -177,12 +177,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -193,12 +193,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -209,12 +209,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -226,12 +226,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>
@@ -243,12 +243,12 @@ const CartPage = () => {
         <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
         <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-blue-600 font-semibold">Read <span className="ml-1">→</span></a>
-          <button className="text-gray-500 hover:text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </button>
+          <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
+          <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+        </svg>
+      </button>
         </div>
       </div>
     </div>

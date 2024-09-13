@@ -440,6 +440,11 @@ const YogiGuide = () => {
 
               <div className="w-full mx-auto py-8">
                 <h2 className="text-center text-[#1E1E1E] text-4xl font-goudy mb-8">Your Holistic Wellness Journey</h2>
+                <div className="flex justify-between w-full px-32">
+      <span className="text-lg font-semibold">For Soul</span>
+      <span className="text-lg font-semibold">For Body</span>
+      <span className="text-lg font-semibold">For Mind</span>
+    </div>
                 <div className="custom-dashed-line my-4 pb-5"></div>
 
 
@@ -541,6 +546,9 @@ const YogiGuide = () => {
                   </div>
                 </div>
               </div>
+
+            
+
 
               <h2 className="text-[#1E1E1E]  text-center text-4xl  font-goudy pt-10"> Latest Blogs </h2>
               <div className="grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 pt-10 ">

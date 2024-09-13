@@ -11,7 +11,7 @@ const CartPage = () => {
       <div className="text-xl sm:text-2xl pt-5 sm:pt-10 px-3 sm:px-5 w-full font-ledger text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
     <ul className="flex flex-col sm:flex-row justify-between gap-2 sm:gap-5 w-full -mb-px">
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-blue-500 dark:border-black" aria-current="page">Wellness</a>
+            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Wellness</a>
         </li>
         <li className="flex-1">
             <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Alternative Medicine</a>
@@ -62,7 +62,7 @@ const CartPage = () => {
     <div className="p-6 flex flex-col justify-between">
       <h2 className="text-2xl font-goudy mb-2">Sleep Well</h2>
       <p className="text-gray-600 mb-4">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
      
     
       </p>
@@ -79,7 +79,7 @@ const CartPage = () => {
     <div className="p-6 flex flex-col justify-between">
       <h2 className="text-2xl font-goudy mb-2">Manage Stress</h2>
       <p className="text-gray-600 mb-4">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
      
     
       </p>
@@ -113,7 +113,7 @@ const CartPage = () => {
             <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Wellness</a>
         </li>
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-blue-500 dark:border-black" aria-current="page">Alternative Medicine</a>
+            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Alternative Medicine</a>
         </li>
         <li className="flex-1">
             <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Success Stories</a>
@@ -194,7 +194,7 @@ const CartPage = () => {
             <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Alternative Medicine </a>
         </li>
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-blue-500 dark:border-black" aria-current="page">Success Stories</a>
+            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Success Stories</a>
         </li>
     </ul>
       </div>

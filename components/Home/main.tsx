@@ -10,28 +10,31 @@ const Dropdown: React.FC<{ label: string, options: string[] }> = ({ label, optio
 
   return (
     <div className="relative inline-block text-left">
-      <button
-        className="inline-flex justify-start w-full px-20 py-2 bg-gray-100 text-black font-medium text-sm rounded-full hover:bg-gray-200 focus:outline-none"
-        onClick={toggleDropdown}
-      >
-        {label}
-        <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <button
+      className="relative inline-flex justify-start w-full px-20 text-left  py-2 bg-gray-100 text-black font-medium text-sm rounded-full hover:bg-gray-200 focus:outline-none"
+      onClick={toggleDropdown}
+    >
+      {label}
+      <div className="absolute inset-y-0 right-0 flex items-center pr-3">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
         </svg>
-      </button>
-
-      {isOpen && (
-        <div className="absolute right-0 mt-2 w-48 origin-top-right rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
-          <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-            {options.map((option, index) => (
-              <a href="#" key={index} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
-                {option}
-              </a>
-            ))}
-          </div>
+      </div>
+    </button>
+  
+    {isOpen && (
+      <div className="absolute right-0 mt-2 w-48 origin-top-right rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
+        <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+          {options.map((option, index) => (
+            <a href="#" key={index} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+              {option}
+            </a>
+          ))}
         </div>
-      )}
-    </div>
+      </div>
+    )}
+  </div>
+  
   );
 };
 
@@ -78,7 +81,7 @@ const Home: React.FC = () => {
 
           </div>
         </div>
-        <div className="w-full p-20 pt-5 pb-5 flex space-x-3 text-left">
+        <div className="w-full p-20 pt-5 pb-5  flex space-x-4 text-left">
       {/* Each button has different dropdown options */}
       <Dropdown label="Goal" options={['Lose Weight', 'Build Muscle', 'Improve Endurance']} />
       <Dropdown label="Location" options={['Indoor', 'Outdoor', 'Gym']} />
@@ -102,10 +105,12 @@ const Home: React.FC = () => {
       alt="Rest + Reset"
       className="w-full h-[300px] object-cover rounded-lg"
     />
-
-    <span className="absolute top-2 right-2 text-gray-500 bg-white rounded-full p-2">
-      <i className="far fa-heart"></i>
-    </span>
+    
+    <button className="absolute top-2 right-2 text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+      </svg>
+    </button>
 
     <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between">
       <button className="bg-white rounded-full p-2 shadow-md">
@@ -116,6 +121,7 @@ const Home: React.FC = () => {
       </button>
     </div>
   </div>
+
   <div className="pt-4">
     <h3 className="text-lg font-lexend font-regular">Rest + Reset</h3>
     <p className="text-sm font-spartan text-gray-500">
@@ -133,19 +139,13 @@ const Home: React.FC = () => {
       alt="Rest + Reset"
       className="w-full h-[300px] object-cover rounded-lg"
     />
+ <button className="absolute top-2 right-2 text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+      </svg>
+    </button>
 
-    <span className="absolute top-2 right-2 text-gray-500 bg-white rounded-full p-2">
-      <i className="far fa-heart"></i>
-    </span>
-
-    <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between">
-      <button className="bg-white rounded-full p-2 shadow-md">
-        &#x25C0;
-      </button>
-      <button className="bg-white rounded-full p-2 shadow-md">
-        &#x25B6;
-      </button>
-    </div>
+   
   </div>
   <div className="pt-4">
     <h3 className="text-lg font-lexend font-regular">Rest + Reset</h3>
@@ -165,18 +165,13 @@ const Home: React.FC = () => {
       className="w-full h-[300px] object-cover rounded-lg"
     />
 
-    <span className="absolute top-2 right-2 text-gray-500 bg-white rounded-full p-2">
-      <i className="far fa-heart"></i>
-    </span>
+<button className="absolute top-2 right-2 text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+      </svg>
+    </button>
 
-    <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between">
-      <button className="bg-white rounded-full p-2 shadow-md">
-        &#x25C0;
-      </button>
-      <button className="bg-white rounded-full p-2 shadow-md">
-        &#x25B6;
-      </button>
-    </div>
+    
   </div>
   <div className="pt-4">
     <h3 className="text-lg font-lexend font-regular">Rest + Reset</h3>
@@ -196,18 +191,13 @@ const Home: React.FC = () => {
       className="w-full h-[300px] object-cover rounded-lg"
     />
 
-    <span className="absolute top-2 right-2 text-gray-500 bg-white rounded-full p-2">
-      <i className="far fa-heart"></i>
-    </span>
+<button className="absolute top-2 right-2 text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.293l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.293l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+      </svg>
+    </button>
 
-    <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between">
-      <button className="bg-white rounded-full p-2 shadow-md">
-        &#x25C0;
-      </button>
-      <button className="bg-white rounded-full p-2 shadow-md">
-        &#x25B6;
-      </button>
-    </div>
+  
   </div>
   <div className="pt-4">
     <h3 className="text-lg font-lexend font-regular">Rest + Reset</h3>
