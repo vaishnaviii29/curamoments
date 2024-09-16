@@ -11,13 +11,13 @@ const CartPage = () => {
       <div className="text-xl sm:text-2xl pt-5 sm:pt-10 px-3 sm:px-5 w-full font-ledger text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
     <ul className="flex flex-col sm:flex-row justify-between gap-2 sm:gap-5 w-full -mb-px">
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Wellness</a>
+            <a href="#grid1" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Wellness</a>
         </li>
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Alternative Medicine</a>
+            <a href="#grid2" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Alternative Medicine</a>
         </li>
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Success Stories</a>
+            <a href="#grid3" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Success Stories</a>
         </li>
     </ul>
 </div>
@@ -25,9 +25,9 @@ const CartPage = () => {
 
 
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 md:p-20">
+      <div  className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 p-5 md:p-20">
   {/* Card 1 */}
-  <div className="flex flex-col md:flex-row bg-white  rounded-lg overflow-hidden border" style={{ borderColor: '#D9D9D9' }}>
+  <div id="grid1" className=" flex flex-col md:flex-row bg-white  rounded-lg overflow-hidden border" style={{ borderColor: '#D9D9D9' }}>
     <img src="assets/verticals1.png" alt="Get Fit" className="h-48 md:h-auto w-full md:w-1/2 object-cover" />
     <div className="p-6 flex flex-col justify-between">
       <h2 className="text-2xl font-goudy mb-2">Get Fit & Fierce</h2>
@@ -41,7 +41,7 @@ const CartPage = () => {
   </div>
   
   {/* Card 2 */}
-  <div className="flex flex-col md:flex-row bg-white  rounded-lg overflow-hidden border" style={{ borderColor: '#D9D9D9' }}>
+  <div   className="flex flex-col md:flex-row bg-white  rounded-lg overflow-hidden border" style={{ borderColor: '#D9D9D9' }}>
     <img src="assets/verticals2.png" alt="Nourish Well" className="h-48 md:h-auto w-full md:w-1/2 object-cover" />
     <div className="p-6 flex flex-col justify-between">
       <h2 className="text-2xl font-goudy mb-2">Nourish Well</h2>
@@ -110,17 +110,17 @@ const CartPage = () => {
       <div className="text-xl sm:text-2xl pt-5 sm:pt-10 px-3 sm:px-5 w-full font-ledger text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
     <ul className="flex flex-col sm:flex-row justify-between gap-2 sm:gap-5 w-full -mb-px">
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Wellness</a>
+            <a href="#grid1" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Wellness</a>
         </li>
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Alternative Medicine</a>
+            <a href="#grid2" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Alternative Medicine</a>
         </li>
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Success Stories</a>
+            <a href="#grid3" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Success Stories</a>
         </li>
     </ul>
       </div>
-      <div className="p-10 bg-cover bg-center" style={{ backgroundImage: "url('assets/gradient.png')" }}>
+      <div id="grid2" className="p-10 bg-cover bg-center" style={{ backgroundImage: "url('assets/gradient.png')" }}>
       <div className="p-6 sm:p-10 md:p-20  pt-10 md:pb-5 ">
       <div className="rounded-lg bg-white flex flex-col md:flex-row overflow-hidden">
     <div className="pl-6 sm:pl-10 md:pl-10 pb-10 flex-1">
@@ -188,17 +188,17 @@ const CartPage = () => {
       <div className="text-xl sm:text-2xl pt-5 sm:pt-10 px-3 sm:px-5 w-full font-ledger text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
     <ul className="flex flex-col sm:flex-row justify-between gap-2 sm:gap-5 w-full -mb-px">
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Wellness</a>
+            <a href="#grid1" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Wellness</a>
         </li>
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Alternative Medicine </a>
+            <a href="#grid2" className="block p-3 sm:p-4 border-b-2 border-transparent rounded-t-lg text-center hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Alternative Medicine </a>
         </li>
         <li className="flex-1">
-            <a href="#" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Success Stories</a>
+            <a href="#grid3" className="block p-3 sm:p-4 text-black border-b-4 border-black rounded-t-lg text-center active dark:text-black dark:border-black" aria-current="page">Success Stories</a>
         </li>
     </ul>
       </div>
-      <div className="p-5 md:p-20 md:pb-5">
+      <div id="grid3" className="p-5  md:p-20 md:pb-5">
   <div className="flex flex-col md:flex-row font-ledger rounded-lg w-full bg-[#F7F7F7]">
     <div className="flex-shrink-0">
       <img className="h-full w-full object-cover rounded-l-lg " src="assets/rect4.png" alt="Person smiling" />

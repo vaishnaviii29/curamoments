@@ -14,7 +14,7 @@ To get started with Cura Moments Web, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/meskolabs-web.git
+   git clone https://github.com/quoppo/curamoments-web.git
    cd curamoments-web
    ```
 

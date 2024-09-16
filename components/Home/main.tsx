@@ -314,7 +314,7 @@ const Home: React.FC = () => {
               </div>
               <div>
                 <img
-                  src="assets/union.png"
+                  src="assets/Union.png"
                   alt="Logo"
                   className="w-full h-full" />
               </div>

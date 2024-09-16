@@ -4,14 +4,14 @@ import React from 'react';
 const CartPage = () => {
   return (
     <><div className="bg-gray-50 "></div>
-      <div className="relative bg-cover  h-[500px] bg-center bg-no-repeat p-4 rounded-lg" style={{ backgroundImage: `url('assets/box2.png')` }}>
-  <h1 className="text-black font-ledger text-2xl md:text-4xl pl-4 md:pl-20 pt-11 mb-2">Holistic Wellness Blogs</h1>
+      <div className="relative bg-cover  h-auto bg-center bg-no-repeat p-5 rounded-lg" style={{ backgroundImage: `url('assets/box2.png')` }}>
+  <h1 className="text-black font-ledger text-2xl md:text-4xl  pl-20 pt-11 mb-2">Holistic Wellness Blogs</h1>
   <div className="p-20 pt-10">
-  <div className="flex flex-col md:flex-row font-ledger rounded-lg shadow-md bg-[#F7F7F7] w-full">
+  <div className="flex flex-col md:flex-row font-ledger rounded-lg bg-[#F7F7F7] w-full ">
     <div className="flex-shrink-0">
       <img className="h-full w-full  rounded-l-lg  object-cover" src="assets/blogs.png" alt="Person smiling" />
     </div>
-    <div className="ml-0 md:ml-6 mt-6 md:mt-5">
+    <div className="ml-3 md:ml-6 mt-6 md:mt-5">
     <span className=" bg-black text-white text-xs px-2 py-1 font-spartan font-semibold rounded">
     FEATURED
               </span>
@@ -31,26 +31,27 @@ const CartPage = () => {
  
 </div>
 
+<div className="flex flex-col md:flex-row p-20 pb-0 items-start md:items-center pt-10 space-y-4 md:space-y-0 md:space-x-8">
+  <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-full md:w-72 appearance-none" style={{ backgroundImage: `url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>')`, backgroundPosition: 'right 1rem center', backgroundSize: '2rem', backgroundRepeat: 'no-repeat' }}>
+    <option value="1">Category</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+  <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-full md:w-72 appearance-none" style={{ backgroundImage: `url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>')`, backgroundPosition: 'right 1rem center', backgroundSize: '2rem', backgroundRepeat: 'no-repeat' }}>
+    <option value="1">Vertical</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+  <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-full md:w-72 appearance-none" style={{ backgroundImage: `url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>')`, backgroundPosition: 'right 1rem center', backgroundSize: '2rem', backgroundRepeat: 'no-repeat' }}>
+    <option value="1">Author</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+</div>
 
-<div className="flex p-20 pb-5 items-start  pt-10 space-x-8">
-      <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-72 ">
-        <option value="1">Category</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-      </select>
-      <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-72">
-        <option value="1">Vertical</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-      </select>
-      <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-72">
-        <option value="1">Author</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-      </select>
-    </div>
-    <div className="container pt-5 p-20 pb-5 mx-auto ">
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+    <div className="w-full  pt-10 p-20  pb-5  ">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-10">
 
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid1.png" alt="Image description" className="w-full h-60 object-cover"/>

@@ -12,9 +12,9 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         ledger: ['Ledger', 'serif'],
-        goudy: ['"Goudy Bookletter 1911"', 'serif'],
+        goudy: ['"Goudy Bookletter 1911"'],
         lexend: ['"Lexend"', 'sans-serif'],
-        'spartan': ['"League Spartan"', 'sans-serif'],
+        spartan: ['"League Spartan"', 'sans-serif'],
       },
       keyframes: {
         slideIn: {

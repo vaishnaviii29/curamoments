@@ -28,29 +28,29 @@ const WellnessPathLogin = () => {
         {/* Right side with the form */}
         <div className="flex flex-col justify-center w-full md:w-3/4 p-8 pl-2 bg-white">
           <div className=" p-10 mx-auto">
-            <div className="flex items-center justify-between p-4">
+            <div className="flex items-center justify-between ">
 
-              <div className="flex items-center">
+              <div className="flex pt-0 items-center">
 
 
                 <img
-                  src="../assets/logo.png"
+                  src="../assets/logo1.png"
                   alt="logo"
-                  className="object-contain h-20 w-20" />
-                <div className="ml-2">
-                  <p className="font-serif text-lg">cura</p>
-                  <p className="font-serif text-lg">moments</p>
-                </div>
+                  className="object-cover " />
+                
               </div>
 
 
-              <div className="text-6xl text-gray-800 font-light cursor-pointer">
-                &times;
-              </div>
+              <a href="/">
+  <div className="text-3xl text-gray-800 font-light cursor-pointer">
+    &times;
+  </div>
+</a>
+
             </div>
 
             <div className="flex justify-between items-center mb-6">
-              <h1 className="text-3xl font-goudy ">Login to holistic wellness</h1>
+              <h1 className="text-3xl pt-10 font-goudy ">Login to holistic wellness</h1>
 
             </div>
             <p className="text-gray-600 font-spartan text-base mb-6">
