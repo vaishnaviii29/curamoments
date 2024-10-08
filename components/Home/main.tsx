@@ -1,6 +1,7 @@
 
 import  React from 'react';
 import { useState } from 'react';
+import Link from 'next/link';
 const Dropdown: React.FC<{ label: string, options: string[] }> = ({ label, options }) => {
   const [isOpen, setIsOpen] = useState(false);
   
@@ -48,10 +49,14 @@ const Home: React.FC = () => {
     <>
     <div className="hidden sm:block">
         <div className="relative p-20 pt-5 pb-5 rounded-lg overflow-hidden">
-          <video className="w-full max-h-90 rounded-3xl" autoPlay loop muted>
-            <source src="assets/2.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <div className="relative w-full max-h-90 rounded-3xl overflow-hidden">
+  <video className="w-full max-h-90 rounded-3xl" autoPlay loop muted>
+    <source src="assets/2.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div className="absolute inset-0 bg-gradient-to-t from-[#494949] to-[#AFAFAF] opacity-50"></div>
+</div>
+
           <div className="absolute inset-0 flex flex-col items-center justify-center">
             <span className="text-white text-7xl font-goudy p-4 text-center">
               Your journey to wholeness <br /> begins here
@@ -83,23 +88,44 @@ const Home: React.FC = () => {
         </div>
         <div className="w-full p-20 pt-5 pb-5  flex space-x-4 text-left">
       {/* Each button has different dropdown options */}
-      <Dropdown label="Goal" options={['Lose Weight', 'Build Muscle', 'Improve Endurance']} />
-      <Dropdown label="Location" options={['Indoor', 'Outdoor', 'Gym']} />
-      <Dropdown label="Dates" options={['Today', 'Tomorrow', 'Next Week']} />
-      <Dropdown label="Skill Level" options={['Beginner', 'Intermediate', 'Advanced']} />
-      <Dropdown label="Price" options={['Free', '$', '$$', '$$$']} />
+      <div className="flex flex-col w-full md:flex-row pb-0 items-start md:items-center space-y-4 md:space-y-0 md:space-x-8 justify-between">
+  <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-full md:w-1/5 appearance-none" style={{ backgroundImage: `url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>')`, backgroundPosition: 'right 1rem center', backgroundSize: '2rem', backgroundRepeat: 'no-repeat' }}>
+    <option value="1">Goal</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+  
+  <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-full md:w-1/5 appearance-none" style={{ backgroundImage: `url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>')`, backgroundPosition: 'right 1rem center', backgroundSize: '2rem', backgroundRepeat: 'no-repeat' }}>
+    <option value="1">Location</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+  
+  <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-full md:w-1/5 appearance-none" style={{ backgroundImage: `url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>')`, backgroundPosition: 'right 1rem center', backgroundSize: '2rem', backgroundRepeat: 'no-repeat' }}>
+    <option value="1">Dates</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+  
+  <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-full md:w-1/5 appearance-none" style={{ backgroundImage: `url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>')`, backgroundPosition: 'right 1rem center', backgroundSize: '2rem', backgroundRepeat: 'no-repeat' }}>
+    <option value="1">Skill Level</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+  
+  <select className="bg-[#F2F2F7] text-black rounded-full pr-10 py-2 px-4 w-full md:w-1/5 appearance-none" style={{ backgroundImage: `url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>')`, backgroundPosition: 'right 1rem center', backgroundSize: '2rem', backgroundRepeat: 'no-repeat' }}>
+    <option value="1">Price</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+</div>
 
-      {/* Arrow button */}
-      <button className="inline-flex justify-center px-4 py-2 bg-gray-100 text-black font-medium text-sm rounded-full hover:bg-gray-200 focus:outline-none">
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-        </svg>
-      </button>
+
     </div>
         {/* <h2 className="pl-20 p-5 font-goudy text-4xl text-[#1E1E1E]">Featured</h2> */}
         <div className="flex flex-wrap justify-between gap-4 w-full  p-20 pb-10 pt-5">
         <div className="bg-white rounded-lg w-full sm:w-[90%] md:w-[23%]">
-  <div className="relative">
+  <div className="relative group">
     <img
       src="assets/home1.png"
       alt="Rest + Reset"
@@ -112,7 +138,8 @@ const Home: React.FC = () => {
       </svg>
     </button>
 
-    <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between">
+    {/* Arrow buttons container */}
+    <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between opacity-0 group-hover:opacity-100 transition-opacity duration-300">
       <button className="bg-white rounded-full p-2 shadow-md">
         &#x25C0;
       </button>
@@ -308,13 +335,15 @@ const Home: React.FC = () => {
                 <p className="text-lg font-lexend mb-4">
                   Take a quick test to get a personalized solution tailored to your needs!
                 </p>
-                <button className="bg-white text-black font-lexend text-base px-6 py-2 rounded-full">
-                  Take A Quiz
-                </button>
+                <Link href="/quiz">
+  <button className="bg-white text-black font-lexend text-base px-6 py-2 rounded-full">
+    Take A Quiz
+  </button>
+</Link>
               </div>
               <div>
                 <img
-                  src="assets/Union.png"
+                  src="assets/union.png"
                   alt="Logo"
                   className="w-full h-full" />
               </div>
@@ -329,7 +358,7 @@ const Home: React.FC = () => {
     <img src="assets/grid1.png" alt="Image description" className="w-full h-60 object-cover" />
     <div className="p-4">
       <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy <br /> text of the printing</h2>
-      <p className="text-[#5B5C66]  font-spartan text-base mb-4">By Will Smith • Omega</p>
+      <p className="text-[#5B5C66]  font-spartan text-sm mb-4">By Will Smith • Omega</p>
       <div className="flex justify-between items-center">
         <a href="#" className="text-[#000000] font-lexend flex items-center">
           Read <span className="ml-1">→</span>
@@ -344,7 +373,7 @@ const Home: React.FC = () => {
     <img src="assets/grid2.png" alt="Image description" className="w-full h-60 object-cover" />
     <div className="p-4">
       <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy <br /> text of the printing</h2>
-      <p className="text-[#5B5C66]  font-spartan text-base mb-4">By Will Smith • Omega</p>
+      <p className="text-[#5B5C66]  font-spartan text-sm mb-4">By Will Smith • Omega</p>
       <div className="flex justify-between items-center">
         <a href="#" className="text-[#000000] font-lexend flex items-center">
           Read <span className="ml-1">→</span>
@@ -359,7 +388,7 @@ const Home: React.FC = () => {
     <img src="assets/grid3.png" alt="Image description" className="w-full h-60 object-cover" />
     <div className="p-4">
       <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy <br />text of the printing</h2>
-      <p className="text-[#5B5C66]  font-spartan text-base mb-4">By Will Smith • Omega</p>
+      <p className="text-[#5B5C66]  font-spartan text-sm mb-4">By Will Smith • Omega</p>
       <div className="flex justify-between items-center">
         <a href="#" className="text-[#000000] font-lexend flex items-center">
           Read <span className="ml-1">→</span>

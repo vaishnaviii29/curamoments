@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 const dietOptions = [
-  'I’ve been struggling to maintain a healthy diet, and I need a reset.',
-  'I’m doing okay, but I know I could be eating better.',
-  'I’m happy with my diet but curious about taking it to the next level.',
+  'It’s huge for me—I love being part of a community.',
+  'I like a mix—some social time, but also my solo space.',
+  'I’m more of a solo act, but I’m open to the right kind of connections.',
 ];
 
 const SliderComponent: React.FC = () => {
@@ -21,7 +21,7 @@ const SliderComponent: React.FC = () => {
       <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between h-full">
         <div className="w-full md:w-2/3 md:px-20 flex flex-col justify-center">
           <h2 className="text-3xl md:text-4xl pt-10 font-regular mb-4 overflow-x-auto pb-6 md:pb-6" style={{ color: '#000000', fontFamily: 'Ledger, serif' }}>
-          How satisfied are you with your current eating habits?
+          How important is connecting with others on your wellness journey?
           </h2>
           <div className="grid grid-cols-1 w-full gap-4 mb-8">
             {dietOptions.map(diet => (
@@ -43,9 +43,9 @@ const SliderComponent: React.FC = () => {
           </div>
 
           <div className="pt-6 md:pt-10">
-            <a href="/quiz/#test6" rel="noopener noreferrer">
+            <a href="/" rel="noopener noreferrer">
               <button
-                className="text-lg md:text-2xl font-regular pt-2 py-2 rounded-full px-10 bg-black text-white border border-transparent hover:bg-white hover:text-black hover:border-black focus:outline-none"
+                className="text-lg md:text-2xl font-regular font-lexend pt-2 py-2 rounded-full px-10 bg-black text-white border border-transparent hover:bg-white hover:text-black hover:border-black focus:outline-none"
                 style={{ fontFamily: 'Ledger, serif' }}
                 onClick={() => console.log('Next clicked')}
               >

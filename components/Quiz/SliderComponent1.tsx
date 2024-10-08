@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 const dietOptions = [
-  'I’ve been struggling to maintain a healthy diet, and I need a reset.',
-  'I’m doing okay, but I know I could be eating better.',
-  'I’m happy with my diet but curious about taking it to the next level.',
+  'It’s been a bit rough. I’m dealing with stress or anxiety and need to find some calm.',
+  'I’m doing okay, but a little more clarity and balance wouldn’t hurt.',
+  'My mind’s in a good place, but I’m always looking for ways to sharpen it.',
 ];
 
 const SliderComponent: React.FC = () => {
@@ -20,8 +20,8 @@ const SliderComponent: React.FC = () => {
     <div className="flex flex-col justify-center items-center h-full bg-cover bg-center bg-no-repeat p-4 overflow-hidden" style={{ backgroundImage: 'url(/assets/bg1.png)' }}>
       <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between h-full">
         <div className="w-full md:w-2/3 md:px-20 flex flex-col justify-center">
-          <h2 className="text-3xl md:text-4xl pt-10 font-regular mb-4 overflow-x-auto pb-6 md:pb-6" style={{ color: '#000000', fontFamily: 'Ledger, serif' }}>
-          How satisfied are you with your current eating habits?
+          <h2 className="text-3xl md:text-4xl font-regular mb-4 pt-10 overflow-x-auto pb-6 md:pb-6" style={{ color: '#000000', fontFamily: 'Ledger, serif' }}>
+          What kind of diet do you follow?
           </h2>
           <div className="grid grid-cols-1 w-full gap-4 mb-8">
             {dietOptions.map(diet => (
@@ -43,7 +43,7 @@ const SliderComponent: React.FC = () => {
           </div>
 
           <div className="pt-6 md:pt-10">
-            <a href="/quiz/#test6" rel="noopener noreferrer">
+            <a href="/quiz/#test2" rel="noopener noreferrer">
               <button
                 className="text-lg md:text-2xl font-regular pt-2 py-2 rounded-full px-10 bg-black text-white border border-transparent hover:bg-white hover:text-black hover:border-black focus:outline-none"
                 style={{ fontFamily: 'Ledger, serif' }}
@@ -58,8 +58,8 @@ const SliderComponent: React.FC = () => {
         {selectedDiet && (
           <div className="w-full md:w-auto pt-10  md:pr-10 flex items-center justify-center p-4">
             <div className="bg-white p-4 rounded-lg max-w-lg text-left">
-              <span role="img" aria-label="brain" className="block text-5xl mb-2">🥗  </span>
-              <p>What you eat fuels your body and mind. Whether you're looking to improve your diet, explore new nutritional habits, or simply maintain a balanced approach, the right choices can make a big difference. How’s your nutrition?</p>
+              <span role="img" aria-label="brain" className="block text-5xl mb-2">🧠  </span>
+              <p>Taking care of your mind is just as important as your body. Whether you're seeking calm, clarity, or mental sharpness, nurturing your emotional well-being can make all the difference. How’s your headspace today?</p>
             </div>
           </div>
         )}

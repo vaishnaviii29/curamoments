@@ -5,9 +5,9 @@ const CartPage = () => {
   return (
     <><div className="bg-gray-50 "></div>
       <div className="relative bg-cover  h-auto bg-center bg-no-repeat p-5 rounded-lg" style={{ backgroundImage: `url('assets/box2.png')` }}>
-  <h1 className="text-black font-ledger text-2xl md:text-4xl  pl-20 pt-11 mb-2">Holistic Wellness Blogs</h1>
-  <div className="p-20 pt-10">
-  <div className="flex flex-col md:flex-row font-ledger rounded-lg bg-[#F7F7F7] w-full ">
+  <h1 className="text-black font-ledger text-4xl pl-10   md:pl-20 pt-11 mb-2">Holistic Wellness Blogs</h1>
+  <div className="md:p-20 p-10 pt-10">
+  <div className="flex flex-col md:flex-row font-ledger rounded-lg bg-[#FFFFFF] w-full ">
     <div className="flex-shrink-0">
       <img className="h-full w-full  rounded-l-lg  object-cover" src="assets/blogs.png" alt="Person smiling" />
     </div>
@@ -16,7 +16,7 @@ const CartPage = () => {
     FEATURED
               </span>
       <h2 className="text-2xl mb-4 md:mb-10 pt-5 font-ledger text-black">International Yoga Day: How to Prepare for Your First Yoga Session</h2>
-      <p className="mt-2 mb-4 md:mb-10 text-lg md:pr-10 text-[#5B5C66] font-spartan">
+      <p className="mt-2 mb-4 md:mb-10 text-base md:pr-10 text-[#5B5C66] font-spartan ">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of...
       </p>
       <div className="flex justify-between items-center pb-5 ">
@@ -50,14 +50,15 @@ const CartPage = () => {
 </div>
 
 
-    <div className="w-full  pt-10 p-20  pb-5  ">
+<div className="p-10 md:pt-10 md:p-20 md:pb-5 w-full">
+
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-10">
 
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid1.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -73,8 +74,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid2.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -89,8 +90,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid3.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -105,8 +106,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid4.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -122,8 +123,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid5.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -139,8 +140,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid6.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -158,8 +159,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid1.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -175,8 +176,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid2.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -191,8 +192,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid3.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -207,8 +208,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid4.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -224,8 +225,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid5.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
@@ -241,8 +242,8 @@ const CartPage = () => {
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <img src="assets/grid6.png" alt="Image description" className="w-full h-60 object-cover"/>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
-        <p className="text-gray-600 text-sm mb-4">By Will Smith • Omega</p>
+        <h2 className="text-lg font-ledger mb-2">Lorem Ipsum is simply dummy text of the printing</h2>
+        <p className="text-[#5B5C66] font-spartan text-base mb-4">By Will Smith • Omega</p>
         <div className="flex justify-between items-center">
           <a href="#" className="text-black font-semibold">Read <span className="ml-1">→</span></a>
           <button className="text-gray-500 hover:text-red-500 bg-gray-100 rounded-full p-2">
